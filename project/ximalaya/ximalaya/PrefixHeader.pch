@@ -9,12 +9,13 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 #import <UIKit/UIKit.h>
-#import "MeViewController.h"
-#import "DiscoverViewController.h"
-#import "CustomListenViewController.h"
-#import "DiscoverViewController.h"
-#import "TabBarViewController.h"
-#import "DownloadViewController.h"
+#import "MeViewController.h"            //我的页面
+#import "DiscoverViewController.h"      //发现页面
+#import "CustomListenViewController.h"  //制定听页面
+#import "TabBarViewController.h"        //入口页面
+#import "DownloadViewController.h"      //下载听页面
+#import "PlayViewController.h"          //播放页面
+#import "define.h"                      //宏定义文件
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

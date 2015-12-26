@@ -1881,6 +1881,7 @@
 		E8CFD3A31C2E400D00DA4BCF /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFD3A21C2E400D00DA4BCF /* DownloadViewController.m */; };
 		E8CFD3A61C2E407200DA4BCF /* CustomListenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFD3A51C2E407200DA4BCF /* CustomListenViewController.m */; };
 		E8CFD3A91C2E408F00DA4BCF /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFD3A81C2E408F00DA4BCF /* DiscoverViewController.m */; };
+		E8CFD3AC1C2E776800DA4BCF /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFD3AB1C2E776800DA4BCF /* PlayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -3788,6 +3789,9 @@
 		E8CFD3A51C2E407200DA4BCF /* CustomListenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomListenViewController.m; sourceTree = "<group>"; };
 		E8CFD3A71C2E408F00DA4BCF /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
 		E8CFD3A81C2E408F00DA4BCF /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		E8CFD3AA1C2E776800DA4BCF /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		E8CFD3AB1C2E776800DA4BCF /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		E8CFD3AE1C2E7B3700DA4BCF /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3859,6 +3863,7 @@
 			children = (
 				E8CFC4961C2E36DB00DA4BCF /* main.m */,
 				E8CFD3901C2E39C000DA4BCF /* PrefixHeader.pch */,
+				E8CFD3AE1C2E7B3700DA4BCF /* define.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -3898,6 +3903,7 @@
 		E8CFC4CB1C2E370400DA4BCF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E8CFD3AD1C2E777400DA4BCF /* 播放页面 */,
 				E8CFD3941C2E3EB200DA4BCF /* 我的页面 */,
 				E8CFD3931C2E3EA700DA4BCF /* 下载听页面 */,
 				E8CFD3921C2E3E9A00DA4BCF /* 制定听页面 */,
@@ -5842,6 +5848,15 @@
 				E8CFD39F1C2E3FFC00DA4BCF /* MeViewController.m */,
 			);
 			name = "我的页面";
+			sourceTree = "<group>";
+		};
+		E8CFD3AD1C2E777400DA4BCF /* 播放页面 */ = {
+			isa = PBXGroup;
+			children = (
+				E8CFD3AA1C2E776800DA4BCF /* PlayViewController.h */,
+				E8CFD3AB1C2E776800DA4BCF /* PlayViewController.m */,
+			);
+			name = "播放页面";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -7844,6 +7859,7 @@
 				E8CFC49A1C2E36DB00DA4BCF /* AppDelegate.m in Sources */,
 				E8CFD3A91C2E408F00DA4BCF /* DiscoverViewController.m in Sources */,
 				E8CFD3971C2E3F6F00DA4BCF /* TabBarViewController.m in Sources */,
+				E8CFD3AC1C2E776800DA4BCF /* PlayViewController.m in Sources */,
 				E8CFD3A01C2E3FFC00DA4BCF /* MeViewController.m in Sources */,
 				E8CFC4971C2E36DB00DA4BCF /* main.m in Sources */,
 				E8CFD3A31C2E400D00DA4BCF /* DownloadViewController.m in Sources */,
@@ -8076,6 +8092,7 @@
 				E8CFC4C11C2E36DB00DA4BCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8CFC4C21C2E36DB00DA4BCF /* Build configuration list for PBXNativeTarget "ximalayaTests" */ = {
 			isa = XCConfigurationList;
@@ -8084,6 +8101,7 @@
 				E8CFC4C41C2E36DB00DA4BCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8CFC4C51C2E36DB00DA4BCF /* Build configuration list for PBXNativeTarget "ximalayaUITests" */ = {
 			isa = XCConfigurationList;
@@ -8092,6 +8110,7 @@
 				E8CFC4C71C2E36DB00DA4BCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

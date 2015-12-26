@@ -45,8 +45,7 @@
 //    我的页面
     MeViewController * meVC = [[MeViewController alloc]init];
     meVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:nil image:[[UIImage imageNamed:@"tabbar_me_n"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:@"tabbar_me_h"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
-//    播放按钮
-    UITabBarItem * playItem = [[UITabBarItem alloc]initWithTitle:nil image:[UIImage imageNamed:@"tabbar_np_normal"] tag:10];
+
     self.viewControllers = @[DiscoverNavi,customListenVC,downloadVC,meVC];
 
 }
