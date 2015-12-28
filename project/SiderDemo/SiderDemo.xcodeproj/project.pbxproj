@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E22E4A33A8C3EBF1FBF203C2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E189D053053014FB2EA1B119 /* libPods.a */; };
 		E84C43A81C3109A80056B869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43A71C3109A80056B869 /* main.m */; };
 		E84C43AB1C3109A80056B869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43AA1C3109A80056B869 /* AppDelegate.m */; };
 		E84C43AE1C3109A80056B869 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43AD1C3109A80056B869 /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		E84C43B61C3109A80056B869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84C43B41C3109A80056B869 /* LaunchScreen.storyboard */; };
 		E84C43C11C3109A80056B869 /* SiderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43C01C3109A80056B869 /* SiderDemoTests.m */; };
 		E84C43CC1C3109A80056B869 /* SiderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43CB1C3109A80056B869 /* SiderDemoUITests.m */; };
+		E84C43DC1C310F560056B869 /* LeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43DB1C310F560056B869 /* LeftMenuController.m */; };
+		E84C43DF1C310F6C0056B869 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43DE1C310F6C0056B869 /* MainTableViewController.m */; };
+		E84C43E21C3110A20056B869 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43E11C3110A20056B869 /* RootViewController.m */; };
+		E84C43E61C3124F20056B869 /* Item1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43E51C3124F20056B869 /* Item1ViewController.m */; };
+		E84C43E91C3124FE0056B869 /* Item2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43E81C3124FE0056B869 /* Item2ViewController.m */; };
+		E84C43EC1C31250B0056B869 /* Item3TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43EB1C31250B0056B869 /* Item3TableViewController.m */; };
+		E84C43EF1C3131000056B869 /* UIScrollView+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43EE1C3131000056B869 /* UIScrollView+Scale.m */; };
+		E84C43F11C313B6A0056B869 /* image005.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E84C43F01C313B6A0056B869 /* image005.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E28D42009767654A37EC34B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		86531C1267AE47120A701FB5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E189D053053014FB2EA1B119 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E84C43A31C3109A80056B869 /* SiderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E84C43A71C3109A80056B869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E84C43A91C3109A80056B869 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,21 @@
 		E84C43C71C3109A80056B869 /* SiderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E84C43CB1C3109A80056B869 /* SiderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiderDemoUITests.m; sourceTree = "<group>"; };
 		E84C43CD1C3109A80056B869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84C43DA1C310F560056B869 /* LeftMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuController.h; sourceTree = "<group>"; };
+		E84C43DB1C310F560056B869 /* LeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuController.m; sourceTree = "<group>"; };
+		E84C43DD1C310F6C0056B869 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		E84C43DE1C310F6C0056B869 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		E84C43E01C3110A20056B869 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E84C43E11C3110A20056B869 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E84C43E41C3124F20056B869 /* Item1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item1ViewController.h; sourceTree = "<group>"; };
+		E84C43E51C3124F20056B869 /* Item1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item1ViewController.m; sourceTree = "<group>"; };
+		E84C43E71C3124FE0056B869 /* Item2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item2ViewController.h; sourceTree = "<group>"; };
+		E84C43E81C3124FE0056B869 /* Item2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item2ViewController.m; sourceTree = "<group>"; };
+		E84C43EA1C31250B0056B869 /* Item3TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item3TableViewController.h; sourceTree = "<group>"; };
+		E84C43EB1C31250B0056B869 /* Item3TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item3TableViewController.m; sourceTree = "<group>"; };
+		E84C43ED1C3131000056B869 /* UIScrollView+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Scale.h"; sourceTree = "<group>"; };
+		E84C43EE1C3131000056B869 /* UIScrollView+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Scale.m"; sourceTree = "<group>"; };
+		E84C43F01C313B6A0056B869 /* image005.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image005.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22E4A33A8C3EBF1FBF203C2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FCE79C8A5AD69CFF9CD8E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E189D053053014FB2EA1B119 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E84C439A1C3109A80056B869 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +121,8 @@
 				E84C43BF1C3109A80056B869 /* SiderDemoTests */,
 				E84C43CA1C3109A80056B869 /* SiderDemoUITests */,
 				E84C43A41C3109A80056B869 /* Products */,
+				EBF873118BF3EA2DF1FAE58B /* Pods */,
+				7FCE79C8A5AD69CFF9CD8E50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +139,8 @@
 		E84C43A51C3109A80056B869 /* SiderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E84C43E31C3124E20056B869 /* Items */,
+				E84C43D91C310F1E0056B869 /* ViewControllers */,
 				E84C43A91C3109A80056B869 /* AppDelegate.h */,
 				E84C43AA1C3109A80056B869 /* AppDelegate.m */,
 				E84C43AC1C3109A80056B869 /* ViewController.h */,
@@ -110,6 +150,8 @@
 				E84C43B41C3109A80056B869 /* LaunchScreen.storyboard */,
 				E84C43B71C3109A80056B869 /* Info.plist */,
 				E84C43A61C3109A80056B869 /* Supporting Files */,
+				E84C43ED1C3131000056B869 /* UIScrollView+Scale.h */,
+				E84C43EE1C3131000056B869 /* UIScrollView+Scale.m */,
 			);
 			path = SiderDemo;
 			sourceTree = "<group>";
@@ -140,6 +182,42 @@
 			path = SiderDemoUITests;
 			sourceTree = "<group>";
 		};
+		E84C43D91C310F1E0056B869 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E84C43DA1C310F560056B869 /* LeftMenuController.h */,
+				E84C43DB1C310F560056B869 /* LeftMenuController.m */,
+				E84C43DD1C310F6C0056B869 /* MainTableViewController.h */,
+				E84C43DE1C310F6C0056B869 /* MainTableViewController.m */,
+				E84C43E01C3110A20056B869 /* RootViewController.h */,
+				E84C43E11C3110A20056B869 /* RootViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E84C43E31C3124E20056B869 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				E84C43F01C313B6A0056B869 /* image005.JPG */,
+				E84C43E41C3124F20056B869 /* Item1ViewController.h */,
+				E84C43E51C3124F20056B869 /* Item1ViewController.m */,
+				E84C43E71C3124FE0056B869 /* Item2ViewController.h */,
+				E84C43E81C3124FE0056B869 /* Item2ViewController.m */,
+				E84C43EA1C31250B0056B869 /* Item3TableViewController.h */,
+				E84C43EB1C31250B0056B869 /* Item3TableViewController.m */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+		EBF873118BF3EA2DF1FAE58B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86531C1267AE47120A701FB5 /* Pods.debug.xcconfig */,
+				1E28D42009767654A37EC34B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E84C43D01C3109A80056B869 /* Build configuration list for PBXNativeTarget "SiderDemo" */;
 			buildPhases = (
+				4BBEA4E4818B3B4631B178BB /* Check Pods Manifest.lock */,
 				E84C439F1C3109A80056B869 /* Sources */,
 				E84C43A01C3109A80056B869 /* Frameworks */,
 				E84C43A11C3109A80056B869 /* Resources */,
+				26C9225A39AB97A6D58665CA /* Embed Pods Frameworks */,
+				BFDE08A41C0BC7C450E84620 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +330,7 @@
 				E84C43B61C3109A80056B869 /* LaunchScreen.storyboard in Resources */,
 				E84C43B31C3109A80056B869 /* Assets.xcassets in Resources */,
 				E84C43B11C3109A80056B869 /* Main.storyboard in Resources */,
+				E84C43F11C313B6A0056B869 /* image005.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +350,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26C9225A39AB97A6D58665CA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BBEA4E4818B3B4631B178BB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDE08A41C0BC7C450E84620 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E84C439F1C3109A80056B869 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84C43E91C3124FE0056B869 /* Item2ViewController.m in Sources */,
+				E84C43E61C3124F20056B869 /* Item1ViewController.m in Sources */,
+				E84C43EF1C3131000056B869 /* UIScrollView+Scale.m in Sources */,
 				E84C43AE1C3109A80056B869 /* ViewController.m in Sources */,
 				E84C43AB1C3109A80056B869 /* AppDelegate.m in Sources */,
+				E84C43E21C3110A20056B869 /* RootViewController.m in Sources */,
 				E84C43A81C3109A80056B869 /* main.m in Sources */,
+				E84C43DF1C310F6C0056B869 /* MainTableViewController.m in Sources */,
+				E84C43EC1C31250B0056B869 /* Item3TableViewController.m in Sources */,
+				E84C43DC1C310F560056B869 /* LeftMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +549,7 @@
 		};
 		E84C43D11C3109A80056B869 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86531C1267AE47120A701FB5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SiderDemo/Info.plist;
@@ -423,6 +561,7 @@
 		};
 		E84C43D21C3109A80056B869 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E28D42009767654A37EC34B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SiderDemo/Info.plist;
@@ -499,6 +638,7 @@
 				E84C43D21C3109A80056B869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E84C43D31C3109A80056B869 /* Build configuration list for PBXNativeTarget "SiderDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +647,7 @@
 				E84C43D51C3109A80056B869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E84C43D61C3109A80056B869 /* Build configuration list for PBXNativeTarget "SiderDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +656,7 @@
 				E84C43D81C3109A80056B869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

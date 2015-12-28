@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import <RESideMenu/RESideMenu.h>
+#import "LeftMenuController.h"
+#import "MainTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,8 +19,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [self createSideMenu];
     return YES;
 }
+
+
+- (void)createSideMenu {
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    RESideMenu * rootVC = [[RESideMenu alloc]init];
+    LeftMenuController  * leftVC = [[LeftMenuController alloc]init];
+    MainTableViewController * mainVC = [[MainTableViewController alloc]init];
+    rootVC.leftMenuViewController = leftVC;
+    rootVC.contentViewController = mainVC;
+    self.window.rootViewController = rootVC;
+    rootVC.view.backgroundColor = [UIColor orangeColor];
+
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
