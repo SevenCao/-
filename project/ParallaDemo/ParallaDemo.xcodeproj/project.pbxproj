@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E84C43491C30C5850056B869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43481C30C5850056B869 /* main.m */; };
+		E84C434C1C30C5850056B869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C434B1C30C5850056B869 /* AppDelegate.m */; };
+		E84C434F1C30C5850056B869 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C434E1C30C5850056B869 /* ViewController.m */; };
+		E84C43521C30C5850056B869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84C43501C30C5850056B869 /* Main.storyboard */; };
+		E84C43541C30C5850056B869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84C43531C30C5850056B869 /* Assets.xcassets */; };
+		E84C43571C30C5850056B869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84C43551C30C5850056B869 /* LaunchScreen.storyboard */; };
+		E84C43621C30C5850056B869 /* ParallaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43611C30C5850056B869 /* ParallaDemoTests.m */; };
+		E84C436D1C30C5850056B869 /* ParallaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C436C1C30C5850056B869 /* ParallaDemoUITests.m */; };
+		E84C43891C30C5B00056B869 /* image000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C437B1C30C5B00056B869 /* image000.jpg */; };
+		E84C438A1C30C5B00056B869 /* image001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C437C1C30C5B00056B869 /* image001.jpg */; };
+		E84C438B1C30C5B00056B869 /* image002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C437D1C30C5B00056B869 /* image002.jpg */; };
+		E84C438C1C30C5B00056B869 /* image003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C437E1C30C5B00056B869 /* image003.jpg */; };
+		E84C438D1C30C5B00056B869 /* image004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C437F1C30C5B00056B869 /* image004.jpg */; };
+		E84C438E1C30C5B00056B869 /* image005.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E84C43801C30C5B00056B869 /* image005.JPG */; };
+		E84C438F1C30C5B00056B869 /* image006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C43811C30C5B00056B869 /* image006.jpg */; };
+		E84C43901C30C5B00056B869 /* image007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C43821C30C5B00056B869 /* image007.jpg */; };
+		E84C43911C30C5B00056B869 /* image008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C43831C30C5B00056B869 /* image008.jpg */; };
+		E84C43921C30C5B00056B869 /* image009.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C43841C30C5B00056B869 /* image009.jpg */; };
+		E84C43931C30C5B00056B869 /* image010.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C43851C30C5B00056B869 /* image010.jpg */; };
+		E84C43941C30C5B00056B869 /* image011.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C43861C30C5B00056B869 /* image011.jpg */; };
+		E84C43951C30C5B00056B869 /* image012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C43871C30C5B00056B869 /* image012.jpg */; };
+		E84C43961C30C5B00056B869 /* image013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84C43881C30C5B00056B869 /* image013.jpg */; };
+		E84C43991C30C7B50056B869 /* ParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43981C30C7B50056B869 /* ParallaxCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E84C435E1C30C5850056B869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84C433C1C30C5850056B869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84C43431C30C5850056B869;
+			remoteInfo = ParallaDemo;
+		};
+		E84C43691C30C5850056B869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84C433C1C30C5850056B869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84C43431C30C5850056B869;
+			remoteInfo = ParallaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E84C43441C30C5850056B869 /* ParallaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84C43481C30C5850056B869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E84C434A1C30C5850056B869 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E84C434B1C30C5850056B869 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E84C434D1C30C5850056B869 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E84C434E1C30C5850056B869 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E84C43511C30C5850056B869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E84C43531C30C5850056B869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E84C43561C30C5850056B869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E84C43581C30C5850056B869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84C435D1C30C5850056B869 /* ParallaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84C43611C30C5850056B869 /* ParallaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaDemoTests.m; sourceTree = "<group>"; };
+		E84C43631C30C5850056B869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84C43681C30C5850056B869 /* ParallaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84C436C1C30C5850056B869 /* ParallaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaDemoUITests.m; sourceTree = "<group>"; };
+		E84C436E1C30C5850056B869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84C437B1C30C5B00056B869 /* image000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image000.jpg; sourceTree = "<group>"; };
+		E84C437C1C30C5B00056B869 /* image001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image001.jpg; sourceTree = "<group>"; };
+		E84C437D1C30C5B00056B869 /* image002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image002.jpg; sourceTree = "<group>"; };
+		E84C437E1C30C5B00056B869 /* image003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image003.jpg; sourceTree = "<group>"; };
+		E84C437F1C30C5B00056B869 /* image004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image004.jpg; sourceTree = "<group>"; };
+		E84C43801C30C5B00056B869 /* image005.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image005.JPG; sourceTree = "<group>"; };
+		E84C43811C30C5B00056B869 /* image006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image006.jpg; sourceTree = "<group>"; };
+		E84C43821C30C5B00056B869 /* image007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image007.jpg; sourceTree = "<group>"; };
+		E84C43831C30C5B00056B869 /* image008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image008.jpg; sourceTree = "<group>"; };
+		E84C43841C30C5B00056B869 /* image009.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image009.jpg; sourceTree = "<group>"; };
+		E84C43851C30C5B00056B869 /* image010.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image010.jpg; sourceTree = "<group>"; };
+		E84C43861C30C5B00056B869 /* image011.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image011.jpg; sourceTree = "<group>"; };
+		E84C43871C30C5B00056B869 /* image012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image012.jpg; sourceTree = "<group>"; };
+		E84C43881C30C5B00056B869 /* image013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image013.jpg; sourceTree = "<group>"; };
+		E84C43971C30C7B50056B869 /* ParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxCell.h; sourceTree = "<group>"; };
+		E84C43981C30C7B50056B869 /* ParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84C43411C30C5850056B869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84C435A1C30C5850056B869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84C43651C30C5850056B869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84C433B1C30C5850056B869 = {
+			isa = PBXGroup;
+			children = (
+				E84C43461C30C5850056B869 /* ParallaDemo */,
+				E84C43601C30C5850056B869 /* ParallaDemoTests */,
+				E84C436B1C30C5850056B869 /* ParallaDemoUITests */,
+				E84C43451C30C5850056B869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E84C43451C30C5850056B869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84C43441C30C5850056B869 /* ParallaDemo.app */,
+				E84C435D1C30C5850056B869 /* ParallaDemoTests.xctest */,
+				E84C43681C30C5850056B869 /* ParallaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E84C43461C30C5850056B869 /* ParallaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E84C437A1C30C5B00056B869 /* Sample Images */,
+				E84C434A1C30C5850056B869 /* AppDelegate.h */,
+				E84C434B1C30C5850056B869 /* AppDelegate.m */,
+				E84C434D1C30C5850056B869 /* ViewController.h */,
+				E84C434E1C30C5850056B869 /* ViewController.m */,
+				E84C43501C30C5850056B869 /* Main.storyboard */,
+				E84C43531C30C5850056B869 /* Assets.xcassets */,
+				E84C43551C30C5850056B869 /* LaunchScreen.storyboard */,
+				E84C43581C30C5850056B869 /* Info.plist */,
+				E84C43471C30C5850056B869 /* Supporting Files */,
+				E84C43971C30C7B50056B869 /* ParallaxCell.h */,
+				E84C43981C30C7B50056B869 /* ParallaxCell.m */,
+			);
+			path = ParallaDemo;
+			sourceTree = "<group>";
+		};
+		E84C43471C30C5850056B869 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E84C43481C30C5850056B869 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E84C43601C30C5850056B869 /* ParallaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E84C43611C30C5850056B869 /* ParallaDemoTests.m */,
+				E84C43631C30C5850056B869 /* Info.plist */,
+			);
+			path = ParallaDemoTests;
+			sourceTree = "<group>";
+		};
+		E84C436B1C30C5850056B869 /* ParallaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E84C436C1C30C5850056B869 /* ParallaDemoUITests.m */,
+				E84C436E1C30C5850056B869 /* Info.plist */,
+			);
+			path = ParallaDemoUITests;
+			sourceTree = "<group>";
+		};
+		E84C437A1C30C5B00056B869 /* Sample Images */ = {
+			isa = PBXGroup;
+			children = (
+				E84C437B1C30C5B00056B869 /* image000.jpg */,
+				E84C437C1C30C5B00056B869 /* image001.jpg */,
+				E84C437D1C30C5B00056B869 /* image002.jpg */,
+				E84C437E1C30C5B00056B869 /* image003.jpg */,
+				E84C437F1C30C5B00056B869 /* image004.jpg */,
+				E84C43801C30C5B00056B869 /* image005.JPG */,
+				E84C43811C30C5B00056B869 /* image006.jpg */,
+				E84C43821C30C5B00056B869 /* image007.jpg */,
+				E84C43831C30C5B00056B869 /* image008.jpg */,
+				E84C43841C30C5B00056B869 /* image009.jpg */,
+				E84C43851C30C5B00056B869 /* image010.jpg */,
+				E84C43861C30C5B00056B869 /* image011.jpg */,
+				E84C43871C30C5B00056B869 /* image012.jpg */,
+				E84C43881C30C5B00056B869 /* image013.jpg */,
+			);
+			path = "Sample Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84C43431C30C5850056B869 /* ParallaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84C43711C30C5850056B869 /* Build configuration list for PBXNativeTarget "ParallaDemo" */;
+			buildPhases = (
+				E84C43401C30C5850056B869 /* Sources */,
+				E84C43411C30C5850056B869 /* Frameworks */,
+				E84C43421C30C5850056B869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaDemo;
+			productName = ParallaDemo;
+			productReference = E84C43441C30C5850056B869 /* ParallaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E84C435C1C30C5850056B869 /* ParallaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84C43741C30C5850056B869 /* Build configuration list for PBXNativeTarget "ParallaDemoTests" */;
+			buildPhases = (
+				E84C43591C30C5850056B869 /* Sources */,
+				E84C435A1C30C5850056B869 /* Frameworks */,
+				E84C435B1C30C5850056B869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84C435F1C30C5850056B869 /* PBXTargetDependency */,
+			);
+			name = ParallaDemoTests;
+			productName = ParallaDemoTests;
+			productReference = E84C435D1C30C5850056B869 /* ParallaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E84C43671C30C5850056B869 /* ParallaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84C43771C30C5850056B869 /* Build configuration list for PBXNativeTarget "ParallaDemoUITests" */;
+			buildPhases = (
+				E84C43641C30C5850056B869 /* Sources */,
+				E84C43651C30C5850056B869 /* Frameworks */,
+				E84C43661C30C5850056B869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84C436A1C30C5850056B869 /* PBXTargetDependency */,
+			);
+			name = ParallaDemoUITests;
+			productName = ParallaDemoUITests;
+			productReference = E84C43681C30C5850056B869 /* ParallaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84C433C1C30C5850056B869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cjl;
+				TargetAttributes = {
+					E84C43431C30C5850056B869 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AAQVFC3L8G;
+					};
+					E84C435C1C30C5850056B869 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AAQVFC3L8G;
+						TestTargetID = E84C43431C30C5850056B869;
+					};
+					E84C43671C30C5850056B869 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AAQVFC3L8G;
+						TestTargetID = E84C43431C30C5850056B869;
+					};
+				};
+			};
+			buildConfigurationList = E84C433F1C30C5850056B869 /* Build configuration list for PBXProject "ParallaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E84C433B1C30C5850056B869;
+			productRefGroup = E84C43451C30C5850056B869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84C43431C30C5850056B869 /* ParallaDemo */,
+				E84C435C1C30C5850056B869 /* ParallaDemoTests */,
+				E84C43671C30C5850056B869 /* ParallaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84C43421C30C5850056B869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84C43921C30C5B00056B869 /* image009.jpg in Resources */,
+				E84C43961C30C5B00056B869 /* image013.jpg in Resources */,
+				E84C43951C30C5B00056B869 /* image012.jpg in Resources */,
+				E84C43901C30C5B00056B869 /* image007.jpg in Resources */,
+				E84C43941C30C5B00056B869 /* image011.jpg in Resources */,
+				E84C43571C30C5850056B869 /* LaunchScreen.storyboard in Resources */,
+				E84C43911C30C5B00056B869 /* image008.jpg in Resources */,
+				E84C43541C30C5850056B869 /* Assets.xcassets in Resources */,
+				E84C438F1C30C5B00056B869 /* image006.jpg in Resources */,
+				E84C438D1C30C5B00056B869 /* image004.jpg in Resources */,
+				E84C438B1C30C5B00056B869 /* image002.jpg in Resources */,
+				E84C438E1C30C5B00056B869 /* image005.JPG in Resources */,
+				E84C438A1C30C5B00056B869 /* image001.jpg in Resources */,
+				E84C43891C30C5B00056B869 /* image000.jpg in Resources */,
+				E84C43931C30C5B00056B869 /* image010.jpg in Resources */,
+				E84C438C1C30C5B00056B869 /* image003.jpg in Resources */,
+				E84C43521C30C5850056B869 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84C435B1C30C5850056B869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84C43661C30C5850056B869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84C43401C30C5850056B869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84C434F1C30C5850056B869 /* ViewController.m in Sources */,
+				E84C434C1C30C5850056B869 /* AppDelegate.m in Sources */,
+				E84C43991C30C7B50056B869 /* ParallaxCell.m in Sources */,
+				E84C43491C30C5850056B869 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84C43591C30C5850056B869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84C43621C30C5850056B869 /* ParallaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84C43641C30C5850056B869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84C436D1C30C5850056B869 /* ParallaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84C435F1C30C5850056B869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84C43431C30C5850056B869 /* ParallaDemo */;
+			targetProxy = E84C435E1C30C5850056B869 /* PBXContainerItemProxy */;
+		};
+		E84C436A1C30C5850056B869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84C43431C30C5850056B869 /* ParallaDemo */;
+			targetProxy = E84C43691C30C5850056B869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E84C43501C30C5850056B869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84C43511C30C5850056B869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E84C43551C30C5850056B869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84C43561C30C5850056B869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E84C436F1C30C5850056B869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E84C43701C30C5850056B869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E84C43721C30C5850056B869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParallaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.app.ParallaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E84C43731C30C5850056B869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParallaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.app.ParallaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E84C43751C30C5850056B869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParallaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.app.ParallaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallaDemo.app/ParallaDemo";
+			};
+			name = Debug;
+		};
+		E84C43761C30C5850056B869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParallaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.app.ParallaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallaDemo.app/ParallaDemo";
+			};
+			name = Release;
+		};
+		E84C43781C30C5850056B869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParallaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.app.ParallaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParallaDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E84C43791C30C5850056B869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParallaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.app.ParallaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParallaDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84C433F1C30C5850056B869 /* Build configuration list for PBXProject "ParallaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84C436F1C30C5850056B869 /* Debug */,
+				E84C43701C30C5850056B869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84C43711C30C5850056B869 /* Build configuration list for PBXNativeTarget "ParallaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84C43721C30C5850056B869 /* Debug */,
+				E84C43731C30C5850056B869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E84C43741C30C5850056B869 /* Build configuration list for PBXNativeTarget "ParallaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84C43751C30C5850056B869 /* Debug */,
+				E84C43761C30C5850056B869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E84C43771C30C5850056B869 /* Build configuration list for PBXNativeTarget "ParallaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84C43781C30C5850056B869 /* Debug */,
+				E84C43791C30C5850056B869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84C433C1C30C5850056B869 /* Project object */;
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="250" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fJi-VC-iMi">
+                                <rect key="frame" x="20" y="20" width="560" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ParallaxCell" rowHeight="250" id="Av8-e0-oGx" customClass="ParallaxCell">
+                                        <rect key="frame" x="0.0" y="28" width="560" height="250"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Av8-e0-oGx" id="57g-Wv-ml3">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="249.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Um3-Lh-xqR">
+                                                    <rect key="frame" x="8" y="8" width="544" height="138.5"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dsw-4X-S0D" userLabel="backGround">
+                                                            <rect key="frame" x="0.0" y="-50" width="544" height="238.5"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstItem="dsw-4X-S0D" firstAttribute="leading" secondItem="Um3-Lh-xqR" secondAttribute="leading" id="2RL-ec-bEN"/>
+                                                        <constraint firstAttribute="trailing" secondItem="dsw-4X-S0D" secondAttribute="trailing" id="LkO-wH-FwT"/>
+                                                        <constraint firstItem="dsw-4X-S0D" firstAttribute="top" secondItem="Um3-Lh-xqR" secondAttribute="top" constant="-50" id="RKu-4A-4ca"/>
+                                                        <constraint firstAttribute="bottom" secondItem="dsw-4X-S0D" secondAttribute="bottom" constant="-50" id="j8d-U4-tot"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Um3-Lh-xqR" secondAttribute="bottom" id="CjY-Eu-Dfx"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Um3-Lh-xqR" secondAttribute="trailing" id="bJs-Ob-8Xp"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Um3-Lh-xqR" secondAttribute="bottom" constant="5" id="eZ7-81-pUc"/>
+                                                <constraint firstItem="Um3-Lh-xqR" firstAttribute="leading" secondItem="57g-Wv-ml3" secondAttribute="leadingMargin" id="iy2-ao-yld"/>
+                                                <constraint firstItem="Um3-Lh-xqR" firstAttribute="top" secondItem="57g-Wv-ml3" secondAttribute="topMargin" id="kYs-81-odT"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="CjY-Eu-Dfx"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="parallaxImageView" destination="dsw-4X-S0D" id="BXC-YB-Psp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="t6g-M2-ywc"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="GrF-Dc-X0y"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fJi-VC-iMi" secondAttribute="bottom" id="6BF-IF-7IQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fJi-VC-iMi" secondAttribute="bottom" id="bKo-L4-dIt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fJi-VC-iMi" secondAttribute="trailing" id="lCr-PB-Rb2"/>
+                            <constraint firstItem="fJi-VC-iMi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="mfj-hy-2PO"/>
+                            <constraint firstItem="fJi-VC-iMi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nhT-3i-d55"/>
+                            <constraint firstItem="fJi-VC-iMi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zP1-8P-8FU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="zP1-8P-8FU"/>
+                                <exclude reference="bKo-L4-dIt"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="fJi-VC-iMi" id="ihv-PR-GkI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="-203"/>
+        </scene>
+    </scenes>
+</document>
