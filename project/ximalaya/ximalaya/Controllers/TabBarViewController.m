@@ -14,6 +14,7 @@
 
 @implementation TabBarViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self creatTabBarItem];
@@ -29,25 +30,33 @@
 
     //设置UITabBar背景图片
     [self.tabBar setBackgroundImage:[UIImage imageNamed:@"tabbae_bg"]];
-   
+    UIStoryboard * sb = [UIStoryboard  storyboardWithName:@"Main" bundle:nil];
     
 
 //    设置视图控制器 和 item背景
 //  发现页面
     UINavigationController * DiscoverNavi = [[UINavigationController alloc]initWithRootViewController:[[DiscoverViewController alloc]init]];
     DiscoverNavi.tabBarItem = [[UITabBarItem alloc]initWithTitle:nil image:[[UIImage imageNamed:@"tabbar_find_n"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:@"tabbar_find_h"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    DiscoverNavi.tabBarItem.imageInsets = UIEdgeInsetsMake(8, 0, -8, 0);
+    //UIEdgeInsetsMake(10, -10, 0, 0);
 //    定制听页面
     CustomListenViewController * customListenVC  = [[CustomListenViewController alloc]init];
     customListenVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:nil image:[[UIImage imageNamed:@"tabbar_sound_n"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:@"tabbar_sound_h"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    customListenVC.tabBarItem.imageInsets = UIEdgeInsetsMake(8, 0, -8, 0);
+
 //    下载听页面
     DownloadViewController * downloadVC = [[DownloadViewController alloc]init];
     downloadVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:nil image:[[UIImage imageNamed:@"tabbar_download_n"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:@"tabbar_download_h"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    downloadVC.tabBarItem.imageInsets = UIEdgeInsetsMake(8, 0, -8, 0);
+
 //    我的页面
-    MeViewController * meVC = [[MeViewController alloc]init];
+    MeViewController * meVC = [sb instantiateViewControllerWithIdentifier:@"MeViewController"];
     meVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:nil image:[[UIImage imageNamed:@"tabbar_me_n"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:@"tabbar_me_h"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    meVC.tabBarItem.imageInsets = UIEdgeInsetsMake(8, 0, -8, 0);
 
+    
+    
     self.viewControllers = @[DiscoverNavi,customListenVC,downloadVC,meVC];
-
 }
 
 /*

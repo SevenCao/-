@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  ximalaya
+//  CD1505Weibo
 //
-//  Created by luhongyu on 15/12/26.
+//  Created by luhongyu on 15/12/29.
 //  Copyright © 2015年 cjl. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "RootTabBarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,10 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[RootTabBarViewController alloc]init];
+
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[TabBarViewController  alloc]init];
+
+    
+    // Override point for customization after application launch.
     return YES;
 }
 

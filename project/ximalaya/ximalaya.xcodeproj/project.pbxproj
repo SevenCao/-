@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E84C43F41C314FDC0056B869 /* UIScrollView+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C43F31C314FDC0056B869 /* UIScrollView+Scale.m */; };
 		E8CFC4971C2E36DB00DA4BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFC4961C2E36DB00DA4BCF /* main.m */; };
 		E8CFC49A1C2E36DB00DA4BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFC4991C2E36DB00DA4BCF /* AppDelegate.m */; };
 		E8CFC4A01C2E36DB00DA4BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CFC49E1C2E36DB00DA4BCF /* Main.storyboard */; };
@@ -1902,6 +1903,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E84C43F21C314FDC0056B869 /* UIScrollView+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Scale.h"; sourceTree = "<group>"; };
+		E84C43F31C314FDC0056B869 /* UIScrollView+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Scale.m"; sourceTree = "<group>"; };
 		E8CFC4921C2E36DB00DA4BCF /* ximalaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ximalaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CFC4961C2E36DB00DA4BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8CFC4981C2E36DB00DA4BCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -3861,6 +3864,8 @@
 		E8CFC4951C2E36DB00DA4BCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E84C43F21C314FDC0056B869 /* UIScrollView+Scale.h */,
+				E84C43F31C314FDC0056B869 /* UIScrollView+Scale.m */,
 				E8CFC4961C2E36DB00DA4BCF /* main.m */,
 				E8CFD3901C2E39C000DA4BCF /* PrefixHeader.pch */,
 				E8CFD3AE1C2E7B3700DA4BCF /* define.h */,
@@ -7857,6 +7862,7 @@
 			files = (
 				E8CFD3A61C2E407200DA4BCF /* CustomListenViewController.m in Sources */,
 				E8CFC49A1C2E36DB00DA4BCF /* AppDelegate.m in Sources */,
+				E84C43F41C314FDC0056B869 /* UIScrollView+Scale.m in Sources */,
 				E8CFD3A91C2E408F00DA4BCF /* DiscoverViewController.m in Sources */,
 				E8CFD3971C2E3F6F00DA4BCF /* TabBarViewController.m in Sources */,
 				E8CFD3AC1C2E776800DA4BCF /* PlayViewController.m in Sources */,
